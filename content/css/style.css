@@ -1,0 +1,542 @@
+@font-face {
+    font-family: 'Bafora Demo';
+    src: url('../fonts/BaforaDemo.eot');
+    src: url('../fonts/BaforaDemo.eot?#iefix') format('embedded-opentype'), url('../fonts/BaforaDemo.woff2') format('woff2'), url('../fonts/BaforaDemo.woff') format('woff'), url('../fonts/BaforaDemo.ttf') format('truetype'), url('../fonts/BaforaDemo.svg#BaforaDemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Capture it';
+    src: url('../fonts/Captureit.eot');
+    src: url('../fonts/Captureit.eot?#iefix') format('embedded-opentype'), url('../fonts/Captureit.woff2') format('woff2'), url('../fonts/Captureit.woff') format('woff'), url('../fonts/Captureit.ttf') format('truetype'), url('../fonts/Captureit.svg#Captureit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Valment';
+    src: url('../fonts/Valment.eot');
+    src: url('../fonts/Valment.eot?#iefix') format('embedded-opentype'), url('../fonts/Valment.svg#Valment') format('svg'), url('../fonts/Valment.ttf') format('truetype'), url('../fonts/Valment.woff') format('woff'), url('../fonts/Valment.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tempus Sans ITC';
+    src: url('../fonts/TempusSansITC.eot');
+    src: url('../fonts/TempusSansITC.eot?#iefix') format('embedded-opentype'), url('../fonts/TempusSansITC.woff2') format('woff2'), url('../fonts/TempusSansITC.woff') format('woff'), url('../fonts/TempusSansITC.ttf') format('truetype'), url('../fonts/TempusSansITC.svg#TempusSansITC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* @font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma.eot');
+    src: url('../fonts/Tahoma.eot?#iefix') format('embedded-opentype'), url('../fonts/Tahoma.woff2') format('woff2'), url('../fonts/Tahoma.woff') format('woff'), url('../fonts/Tahoma.ttf') format('truetype'), url('../fonts/Tahoma.svg#Tahoma') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url('../fonts/Tahoma-Bold.eot');
+    src: url('../fonts/Tahoma-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Tahoma-Bold.woff2') format('woff2'), url('../fonts/Tahoma-Bold.woff') format('woff'), url('../fonts/Tahoma-Bold.ttf') format('truetype'), url('../fonts/Tahoma-Bold.svg#Tahoma-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sem-espaco {
+    padding: 0;
+    margin: 0
+}
+
+
+/**header**/
+
+header.bg-header {
+    background-image: url(../img/bg-header.png);
+    background-color: black;
+    background-position: top;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    height: 950px;
+    background-size: cover;
+}
+
+.bg-header-left {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 950px;
+}
+
+.bg-header-right {
+    background: url(../img/bg-header-right-transparente.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 950px;
+}
+
+header img {
+    width: 320px;
+    margin-top: 21%;
+    margin-left: 41%;
+}
+
+.header-text {
+    margin: 12% 0 0 29%;
+}
+
+.header-text .header-text-1 {
+    font-family: 'Bafora Demo';
+    font-size: 85px;
+    color: #ff9f0b;
+    position: absolute;
+    margin-top: -67px;
+}
+
+.header-text .header-text-2 {
+    font-family: 'Capture it';
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-left: 36px;
+}
+
+.header-text .header-text-3 {
+    font-family: 'Bafora Demo';
+    font-size: 60px;
+    color: #ff9f0b;
+    position: absolute;
+    margin: 40px 0 0 306px;
+}
+
+.bg-header .icon-arrow-bottom {
+    background: url(../img/icon-arrow-bottom.png);
+    width: 34px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    bottom: 64px;
+    animation: anima 1500ms ease infinite;
+}
+
+@keyframes anima {
+    to {
+        opacity: 0.0;
+        transform: scale(0.85) translateY(40px);
+    }
+}
+
+
+/**Fim header**/
+
+.navbar-right {
+    padding-right: 0 !important;
+}
+
+.navbar-left {
+    padding-right: 0 !important;
+}
+
+.princial-banner-text {
+    margin: 215px 0 0 -417px;
+}
+
+.princial-banner-text-1 {
+    font-family: 'Bafora Demo';
+    font-size: 70px;
+    color: #ff9f0b;
+    position: absolute;
+    margin: -70px 0 0 0;
+    text-shadow: 0px 6px 0 rgb(0 0 0 / 50%);
+}
+
+.princial-banner-text-2 {
+    font-family: 'Bafora Demo';
+    font-size: 106px;
+    color: #ff9f0b;
+    position: absolute;
+    margin: -3px 0 0px 21px;
+}
+
+.princial-banner-text-3 {
+    font-family: 'Capture it';
+    font-size: 47px;
+    color: white;
+    position: absolute;
+    margin: -10px 0 0 0;
+    text-shadow: 0px 6px 0 rgb(0 0 0 / 50%);
+}
+
+.princial-banner-text-4 {
+    font-family: 'Capture it';
+    font-size: 91px;
+    color: white;
+    position: absolute;
+    margin: 0px 0 0 31px;
+}
+
+.princial-banner-button {
+    font-family: 'Capture it';
+    font-size: 20px;
+    color: white;
+    background: url(../img/icon-button.png);
+    width: 226px;
+    height: 64px;
+    border: none;
+    margin: 100px 0 0 161px;
+}
+
+.princial-banner-button:before {
+    content: "";
+    background: url(../img/icon-arrow-left.png);
+    width: 51px;
+    height: 27px;
+    position: absolute;
+    margin: -1px 0 0 205px;
+}
+
+.princial-banner-button:after {
+    content: "";
+    background: url(../img/icon-arrow-right.png);
+    width: 51px;
+    height: 27px;
+    position: absolute;
+    margin: 1px 0 0 -251px;
+}
+
+.princial-banner-button:hover:before {
+    animation: anima-button-before 1000ms ease infinite;
+}
+
+.princial-banner-button:hover:after {
+    animation: anima-button-after 1000ms ease infinite;
+}
+
+@keyframes anima-button-before {
+    to {
+        opacity: 0.1;
+        transform: scale(0.85) translatex(-40px);
+    }
+}
+
+@keyframes anima-button-after {
+    to {
+        opacity: 0.1;
+        transform: scale(0.85) translatex(40px);
+    }
+}
+
+
+/****/
+
+.navbar-right {
+    margin: 0 !important;
+}
+
+.logo {
+    display: initial !important;
+    width: 148px;
+    margin-top: 21px;
+    margin-right: 17px;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: transparent;
+    position: absolute;
+    z-index: 3;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Capture it';
+}
+
+.navbar-nav {
+    padding: 90px 45px 0 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ff9f0b;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+.menu-left {
+    float: left;
+}
+
+.menu-right {
+    float: right;
+}
+
+.princial-banner .slick-dots {
+    bottom: 75px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #fb9d0b !important;
+}
+
+.slick-dots li button:before {
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+
+
+/**************/
+
+.box-slide {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 975px;
+    padding: 243px 0 0 0;
+}
+
+.box-slide img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-slide h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 43px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.box-slide p {
+    font-size: 33px;
+    color: #f4d00a;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 80px;
+}
+
+.box-slide p b {
+    font-size: 58.83px;
+    font-family: 'Forte';
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+
+/***/
+
+.background-principal {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+.titulo-secao-hamburguers p span {
+    font-family: 'Valment';
+    font-size: 55px;
+    color: #ff9800;
+    position: absolute;
+    margin-top: -34px;
+}
+
+.titulo-secao-hamburguers {
+    padding: 115px 0 0 0;
+}
+
+.titulo-secao-hamburguers p {
+    font-family: 'Capture it';
+    font-size: 61px;
+    color: white;
+    text-shadow: 0px 6px 0 rgb(0 0 0 / 50%);
+    text-align: center;
+}
+
+.slide-fotos .slide-fotos-box {
+    width: 33.33%;
+    height: 365px;
+    float: left;
+}
+
+.slide-fotos .slide-fotos-box img {
+    width: 100%;
+    height: 365px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+li.slide-fotos-box.amarelo {
+    background: #b97000;
+    width: 100%;
+    height: 365px;
+    display: block;
+}
+
+li.slide-fotos-box {
+    background: #000000eb;
+    width: 100%;
+    height: 365px;
+    display: block;
+}
+
+.slide-fotos {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.bg-localizacao {
+    background: #0d0d0d;
+}
+
+.bg-localizacao h3 {
+    font-family: 'Tahoma';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 47px;
+}
+
+footer {
+    background: #0d0d0d;
+    padding: 46px 0 23px 0;
+}
+
+footer ul {
+    padding: 0;
+    width: 894px;
+    margin: 0 auto;
+    display: block;
+    height: 76px;
+    border-bottom: 1px solid white;
+    margin-bottom: 28px;
+    padding: 0 83px;
+}
+
+footer ul li {
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Capture it';
+    padding: 0 27px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: #ff9800;
+}
+
+footer p {
+    font-family: 'Tahoma';
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding: 0px 0;
+}
+
+footer p a {
+    color: #ff9800;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: #ff9800;
+}
+
+.bg-localizacao h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Tahoma';
+    line-height: 33px;
+}
+
+.remove-overflow {
+    overflow: hidden !important;
+}
+
+.horario {
+    padding: 0 30px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.horario li {
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    width: 48%;
+    margin: 0 auto;
+    list-style: none;
+    border-radius: 100px;
+    padding: 7px 0;
+    margin-bottom: 7px;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 6px;
+}
+
+iframe {
+    margin-top: 50px;
+}
+
+.whats {
+    background: url(../img/whats.png);
+    width: 70px;
+    height: 71px;
+    position: fixed;
+    z-index: 10;
+    bottom: 21px;
+    right: 2%;
+    background-size: contain;
+}
