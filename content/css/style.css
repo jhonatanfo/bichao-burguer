@@ -56,6 +56,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    position: relative;
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 .sem-espaco {
@@ -74,6 +81,7 @@ header.bg-header {
     z-index: 1;
     position: relative;
     height: 950px;
+    min-height: 100vh;
     background-size: cover;
 }
 
@@ -126,6 +134,10 @@ header img {
     margin: 40px 0 0 306px;
 }
 
+.bg-header .icon-arrow-bottom:hover {
+    background: url(../img/icon-arrow-bottom-hover.png);
+}
+
 .bg-header .icon-arrow-bottom {
     background: url(../img/icon-arrow-bottom.png);
     width: 34px;
@@ -134,6 +146,7 @@ header img {
     right: 0;
     bottom: 64px;
     animation: anima 1500ms ease infinite;
+    transition: 0.2s;
 }
 
 @keyframes anima {
@@ -201,6 +214,12 @@ header img {
     height: 64px;
     border: none;
     margin: 100px 0 0 161px;
+    transition: 0.2s;
+}
+
+.princial-banner-button:hover {
+    background: url(../img/icon-button-hover.png);
+    color: #ff9f0b;
 }
 
 .princial-banner-button:before {
@@ -210,6 +229,11 @@ header img {
     height: 27px;
     position: absolute;
     margin: -1px 0 0 205px;
+    transition: 0.2s;
+}
+
+.princial-banner-button:hover:before {
+    background: url(../img/icon-arrow-left-hover.png);
 }
 
 .princial-banner-button:after {
@@ -219,6 +243,11 @@ header img {
     height: 27px;
     position: absolute;
     margin: 1px 0 0 -251px;
+    transition: 0.2s;
+}
+
+.princial-banner-button:hover:after {
+    background: url(../img/icon-arrow-right-hover.png);
 }
 
 .princial-banner-button:hover:before {

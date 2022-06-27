@@ -162,5 +162,12 @@ $(document).ready(function() {
         $(this).addClass("ativo");
     });
 
+    AOS.init({
+        disable: function() {
+            var maxWidth = 767;
+            return window.innerWidth < maxWidth;
+        }
+    });
+
 
 });
